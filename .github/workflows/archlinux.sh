@@ -17,13 +17,23 @@ requires=(
 
 # https://gitlab.archlinux.org/archlinux/packaging/packages/pluma
 requires+=(
+	appstream-glib
 	autoconf-archive
+	clang
 	dconf
+	enchant
+	file
+	gcc
 	git
 	glib2-devel
 	gobject-introspection
+	gtksourceview4
+	iso-codes
 	itstool
+	libpeas
+	libsm
 	libx11
+	make
 	mate-common
 	python
 	which
